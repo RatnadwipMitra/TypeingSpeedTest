@@ -52,10 +52,10 @@ async function fetchapi() {
                 }
                 
             }
-            document.getElementById('quote').addEventListener('copy', function(e) {
-                e.preventDefault(); // Prevents copy action
-                alert("Copying is disabled!");
-            });
+            // document.getElementById('quote').addEventListener('copy', function(e) {
+            //     e.preventDefault(); // Prevents copy action
+            //     alert("Copying is disabled!");
+            // });
 
         }
     }
