@@ -53,7 +53,7 @@ async function fetchapi() {
                 
             }
             document.getElementById('quote').addEventListener('copy', function(e) {
-                e.preventDefault(); // Prevents copy action
+                e.preventDefault();
                 alert("Copying is disabled!");
             });
 
